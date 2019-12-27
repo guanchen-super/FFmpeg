@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "FLVConverM3U8 msvc build",
+            "type": "shell",
+            "command": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "args": [
+                "/EHsc",
+                "/Zi",
+                "/Fe:",
+                "${workspaceFolder}/bin/FLVConverM3U8.exe",
+                "FLVConverM3U8.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

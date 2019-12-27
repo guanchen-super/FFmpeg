@@ -31,3 +31,6 @@
 *.out
 *.app
 /FFmpeg4.2.1_Demo/FLVConverM3U8/.vs/FLVConverM3U8/v15
+*.pdb
+*.ilk
+*.pdb
